@@ -1,0 +1,7 @@
+etc/apache2/sites-available
+usr/share/chwala
+usr/share/chwala/public_html
+usr/share/chwala/lib
+var/cache/chwala
+var/lib/chwala
+var/log/chwala

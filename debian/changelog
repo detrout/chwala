@@ -1,0 +1,49 @@
+chwala (0.1~dev20130809-2~kolab9) unstable; urgency=low
+
+  * Install apache configuration in the right location (attempt #2)
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Sat, 23 Nov 2013 07:14:39 -0500
+
+chwala (0.1~dev20130809-2~kolab8) unstable; urgency=low
+
+  * Install apache configuration in the right location
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Fri, 22 Nov 2013 07:14:39 -0500
+
+chwala (0.1~dev20130809-2~kolab7) unstable; urgency=low
+
+  * enable site chwala
+  * reload apache, not restart
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Thu, 21 Nov 2013 07:14:39 -0500
+
+chwala (0.1~dev20130809-2~kolab4) unstable; urgency=low
+
+  * not referencing chwala.conf file in absolute path in build directory
+
+ -- Timotheus Pokorra <timotheus@kolab.org>  Wed, 13 Nov 2013 20:54:39 +0100
+
+chwala (0.1~dev20130809-2~kolab3) unstable; urgency=low
+
+  * fixing several issues, related to bug 2430
+
+ -- Timotheus Pokorra <timotheus@pokorra.de>  Thu, 07 Nov 2013 08:14:39 +0100
+
+chwala (0.1~dev20130809-2~kolab2) unstable; urgency=low
+
+  * Correct missing comma
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Tue, 29 Oct 2013 07:14:39 -0500
+
+chwala (0.1~dev20130809-2~kolab1) unstable; urgency=low
+
+  * Ship /var/cache/chwala
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Tue,  8 Oct 2013 07:14:39 -0500
+
+chwala (0.1~dev20130809-1~kolab1) unstable; urgency=low
+
+  * First release of this package
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Mon,  7 Oct 2013 07:14:39 -0500
+
