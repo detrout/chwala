@@ -1,0 +1,11 @@
+--- a/lib/kolab/kolab_file_storage.php
++++ b/lib/kolab/kolab_file_storage.php
+@@ -872,7 +872,7 @@
+             array('filename', '=', $file_name)
+         ));
+ 
+-        return array_shift($files);
++        return $files[0];
+     }
+ 
+     /**

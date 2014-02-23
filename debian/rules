@@ -19,12 +19,3 @@ override_dh_install:
 	rm -rf $(CURDIR)/debian/chwala/usr/share/chwala/lib/kolab/plugins/kolab_auth
 	rm -rf $(CURDIR)/debian/chwala/usr/share/chwala/lib/kolab/plugins/kolab_folders
 	rm -rf $(CURDIR)/debian/chwala/usr/share/chwala/lib/kolab/plugins/libkolab
-
-	if [ -d "$(CURDIR)/debian/chwala/etc/apache2/sites-available/chwala" -a \
-		-f "$(CURDIR)/debian/chwala/etc/apache2/sites-available/chwala/chwala.conf" ]; then \
-		mv -v $(CURDIR)/debian/chwala/etc/apache2/sites-available/chwala/chwala.conf \
-			$(CURDIR)/debian/chwala/etc/apache2/sites-available/chwala.conf ; \
-		rm -rvf $(CURDIR)/debian/chwala/etc/apache2/sites-available/chwala/ ; \
-		mv -v $(CURDIR)/debian/chwala/etc/apache2/sites-available/chwala.conf \
-			$(CURDIR)/debian/chwala/etc/apache2/sites-available/chwala ; \
-	fi

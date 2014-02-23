@@ -1,3 +1,40 @@
+chwala (0.2-0~kolab6.1) unstable; urgency=low
+
+  * Adopted quilt packaging for source patches.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Sun, 23 Feb 2014 01:57:49 +0100
+
+chwala (0.2-0~kolab6) unstable; urgency=low
+
+  * Bump release to rebuild the debian packages
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Mon, 10 Feb 2014 07:14:39 -0500
+
+chwala (0.2-0~kolab5) unstable; urgency=low
+
+  * Correct any suhosin.session.encrypt setting using .htaccess
+  * Correct source of chwala.conf
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Thu, 23 Jan 2014 07:14:39 -0500
+
+chwala (0.2-0~kolab3) unstable; urgency=low
+
+  * added logrotate script from git repo
+
+ -- Daniel Hoffend <dh@dotlan.net>  Tue, 26 Nov 2013 23:22:23 +0200
+
+chwala (0.2-0~kolab2) unstable; urgency=low
+
+  * fixed dependency with smarty3
+
+ -- Daniel Hoffend <dh@dotlan.net>  Tue, 26 Nov 2013 00:45:41 +0200
+
+chwala (0.2-0~kolab1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Jeroen van Meeuwen (Kolab Systems) <vanmeeuwen@kolabsys.com>  Sun, 24 Nov 2013 07:14:39 -0500
+
 chwala (0.1~dev20130809-2~kolab9) unstable; urgency=low
 
   * Install apache configuration in the right location (attempt #2)
