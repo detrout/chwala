@@ -11,8 +11,8 @@ to be installed.
 1. Create local config
 
 The configuration for this service inherits basic options from the Roundcube
-config. To make that available, symlink the Roundcube config files
-(main.inc.php and db.inc.php) into the local config/ directory.
+config. To make that available, symlink the Roundcube config file
+(config.inc.php) into the local config/ directory.
 
 2. Give write access for the webserver user to the logs, cache and temp folders:
 
@@ -20,7 +20,9 @@ $ chown <www-user> logs
 $ chown <www-user> cache
 $ chown <www-user> temp
 
-3. Optionally, configure your webserver to point to the 'public_html' directory of this
+3. Execute database initialization scripts from doc/SQL/ on Roundcube database.
+
+4. Optionally, configure your webserver to point to the 'public_html' directory of this
 package as document root.
 
 
